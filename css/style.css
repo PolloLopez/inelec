@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***     HEAD     ***/ 
+header {
+    margin: .5rem;
+    background-color: #82aff352;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em;
+}
+
+.imgLogo{
+    width: 3rem;
+}
+
+.titleHeader {
+    font-size: 2em;
+    color: #000000;
+    margin-left: .25em;
+}
+
+.imgContactoHeader {
+margin-left: auto;
+width: 30%;
+height: auto;
+padding-right: 1em;
+margin-right: 1em;
+}
+
+.menu {
+    width: 100%;
+    background-color: #738de286;
+    text-align: center;
+    margin-top: .5em;
+    display: inline-flex;
+    position: absolute;
+
+}
+
+.menu ul {
+    list-style: none;
+    padding: .1em;
+}
+
+.menu ul li {
+    display: inline-block;
+    grid-row:auto;
+    margin-right: .1em;
+    text-transform: uppercase;
+}
+
+.menu ul li a {
+    font-size: .75em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu ul li a:hover {
+    background-color: #ff9c2bda; 
+    border-radius: .5em;
+    padding-block: .75em;
+    color: #000;
+}
+
+.active {
+    background-color: #ff9c2bda; 
+    border-radius: .5em;
+    padding-block: .75em;
+    color: #000;
+}
